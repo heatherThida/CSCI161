@@ -1,0 +1,66 @@
+li{
+	    margin: 5px 0;
+}
+header {
+	    text-align:center;
+	    //text-align:left;
+	    //padding:5px;
+}
+nav {
+	    line-height:30px;
+	    background-color:#eeeeee;
+	    height:300px;
+	    width:100px;
+	    float:left;
+	    padding:5px;
+}
+section {
+	    background-color:ivory;
+	    width: 100%;
+	    float:left;
+	    padding:10px;
+}
+footer {
+	    clear:both;
+	    text-align:right;
+	    padding:5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	  margin-top:0px;
+	  margin-bottom:0px;
+}
+
+img{
+	padding: 20px;
+}
+
+body {
+	counter-reset: cfigures;
+}
+
+figure
+{
+	counter-increment: cfigures;
+}
+
+figure figcaption:before {
+	content: 'Fig. ' counter(cfigures) ' - ';
+}
+
+figcaption
+{
+	//font-weight: 700;
+	text-transform: uppercase;
+	//letter-spacing: 2px;
+	font-size: smaller;
+	padding: .5em;
+	text-align: center;
+	//color: #fff;
+	//background: #f5bca8;
+	
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}

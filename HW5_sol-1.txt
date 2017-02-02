@@ -1,0 +1,15 @@
+Let C(n) = the number of different binary trees with n nodes.
+
+C(0) = 1  (the empty tree)
+C(1) = 1  (just root node)
+C(2) = 2  (as given)
+
+To compute C(3), note that one node must be the root, leaving 2 nodes for the
+left and right subtrees.  There are 3 ways to distribute these 2 nodes: (2,
+0), (1, 1), or (0, 2).
+
+Hence C(3) = C(2)*C(0) + C(1)*C(1) + C(0)*C(2) = 2 + 1 + 1 = 5.
+
+Similarly,
+
+C(4) = C(3)*C(0) + C(2)*C(1) + C(1)*C(2) + C(0)*C(3) = 5+2+2+5 = 14.

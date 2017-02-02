@@ -1,0 +1,3 @@
+pre-order:  A L O H M R S G I T
+in-order:   H O M L S R A I G T
+post-order: H M O S R L I T G A
